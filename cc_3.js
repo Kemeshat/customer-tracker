@@ -34,3 +34,15 @@ console.log (customers);
 customers[0].email = "toby.richards.new@gmail.com";
 console.log (customers);
 
+//add a new purchase to one of the existing customers
+customers[0].purchases.push("Air Conditioner");
+console.log (customers);
+
+customers.forEach(customer => {
+  console.log (
+    `name: ${customer.name},
+    email: ${customer.email},
+    purchases: ${customer.purchases.join(", ")}`
+  );
+});
+
