@@ -26,3 +26,11 @@ customers.push({
 });
 console.log (customers);
 
+// Remove the first customer
+customers.shift();
+console.log (customers);
+
+// Update the email of one existing customer
+customers[0].email = "toby.richards.new@gmail.com";
+console.log (customers);
+
