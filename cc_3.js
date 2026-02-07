@@ -18,3 +18,11 @@ let customers = [
 ];
 console.log (customers);
 
+// Add a new customer to the array
+customers.push({
+  name: "Sarah Johnson",
+  email: "sarah.johnson@gmail.com",
+  purchases: ["washing machine", "dryer"]
+});
+console.log (customers);
+
