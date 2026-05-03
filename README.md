@@ -1,4 +1,4 @@
-# Customer Records Tracker
+# Managing Customer Data with Arrays and Objects
 
 ## Project Description
 This project is a simple customer management system built using JavaScript. It stores customer information such as names, emails, and purchase history using arrays and objects. The goal is to simulate how a small business might keep track of its clients and their activity.
